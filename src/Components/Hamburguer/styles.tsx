@@ -82,10 +82,18 @@ export const MenuHamburguer = styled.div`
 }
 }
 
+@media (max-width: 414px) {
+
+.hamburger {
+  margin-left: 350px;
+  margin-top: 10px;
+}
+}
+
 @media (max-width: 412px) {
 
 .hamburger {
-  margin-left: 360px;
+  margin-left: 350px;
   margin-top: 10px;
 }
 }
@@ -101,7 +109,7 @@ export const MenuHamburguer = styled.div`
 @media (max-width: 390px) {
 
 .hamburger {
-  margin-left: 340px;
+  margin-left: 330px;
   margin-top: 10px;
 }
 }
@@ -117,7 +125,7 @@ export const MenuHamburguer = styled.div`
 @media (max-width: 360px) {
     
 .hamburger {
-  margin-left: 300px;
+  margin-left: 290px;
   margin-top: 10px;
 }
 }

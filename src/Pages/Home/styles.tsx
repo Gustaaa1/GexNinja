@@ -88,7 +88,7 @@ button:hover {
 
 .Modelos {
   position: absolute;
-  margin-left: 750px;
+  margin-left: 740px;
   font-size: 20px;
   width: 200px;
   margin-top: 40px;
@@ -98,7 +98,7 @@ button:hover {
 .Conosco {
   position: absolute;
   margin: 0;
-  margin-left: 980px;
+  margin-left: 970px;
   font-size: 20px;
   margin-top: 40px;
   z-index: 2;
@@ -147,11 +147,15 @@ button:hover {
 }
 .subinfop p{
  font-size: 17px;
- 
+}
+
+body {
+  background-attachment: scroll !important;
+  overflow-x: hidden;
 }
 
 @media (max-width: 480px) {
-  
+ 
 h2 {
   font-size: 60px;
   margin-top: 150px;
@@ -214,9 +218,13 @@ p {
 }
 
 .Cliente {
-
   margin-left: 16px;
   margin-top: 150px;
+}
+.AltaPeformace {
+  margin-left: 30px;
+  display: none;
+
 }
 }
 
@@ -258,7 +266,6 @@ p {
 
 .Modelos {
   margin-top: 30px;
-
 }
 
 .subinfo {
@@ -288,6 +295,12 @@ p {
 
   margin-left: 16px;
   margin-top: 150px;
+}
+
+.AltaPeformace {
+  margin-left: 30px;
+  display: none;
+
 }
 }
 
@@ -326,6 +339,12 @@ p {
 .Porcento {
   margin-left: 135px;
 }
+
+.AltaPeformace {
+  margin-left: 30px;
+  display: none;
+
+}
 }
 
 @media (max-width: 393px) {
@@ -363,9 +382,17 @@ p {
 .Porcento {
   margin-left: 135px;
 }
+
+.AltaPeformace {
+  margin-left: 30px;
+  display: none;
+
+}
 }
 
 @media (max-width: 375px) {
+  height: 800px;
+  
 
 h2 {
   font-size: 50px;
@@ -402,9 +429,16 @@ p {
 .Porcento {
   margin-left: 130px;
 }
+
+.AltaPeformace {
+  margin-left: 30px;
+  display: none;
+
+}
 }
 
 @media (max-width: 360px){
+  height: 800px;
 
 h2 {
   font-size: 50px;
@@ -440,6 +474,11 @@ p {
 
 .Porcento {
   margin-left: 135px;
+}
+
+.AltaPeformace {
+  margin-left: 30px;
+  display: none;
 }
 }
 
@@ -483,6 +522,11 @@ p {
   margin-left: 120px;
 }
 
+.AltaPeformace {
+  margin-left: 30px;
+  display: none;
+
+}
 }
 `
 
@@ -697,7 +741,11 @@ p {
 
 .MotoNinjaRed button {
   margin-top: 170px;
+}
 
+body {
+  background-attachment: scroll !important;
+  overflow-x: hidden;
 }
 
 @media (max-width: 480px) {
@@ -799,7 +847,22 @@ p {
   margin-top: 165px;
 
 }
+}
 
+@media (max-width: 480px) {
+
+.MotoNinjaPrime,
+.MotoNinjaGex,
+.MotoNinjaRed{
+  width: 405px;
+  margin-left: 10px;
+
+}
+.MotoNinjaPrime img,
+.MotoNinjaGex img,
+.MotoNinjaRed img {
+  width: 405px;
+}
 
 }
 
@@ -911,11 +974,14 @@ p {
 
 .MotoNinjaPrime,
 .MotoNinjaGex,
-.MotoNinjaRed,
+.MotoNinjaRed{
+  width: 350px;
+  margin-left: 13px;
+}
 .MotoNinjaPrime img,
 .MotoNinjaGex img,
 .MotoNinjaRed img {
-  width: 365px;
+  width: 350px;
 }
 
 .MotoNinjaPrime h2{
@@ -952,17 +1018,20 @@ p {
 }
 
 .MotoNinjaGex button {
-   margin-top: 180px;
+  margin-top: 180px;
 
 }
 }
 
 @media (max-width: 360px) {
-
+  background-attachment: scroll !important;
+  overflow-x: hidden;
+   
 .MotoNinjaPrime,
 .MotoNinjaGex,
 .MotoNinjaRed {
-  width: 350px;
+  width: 340px;
+  margin-left: 11px;
 }
 
 .MotoNinjaPrime img,
@@ -983,8 +1052,11 @@ p {
 }
 
 .MotoNinjaPrime h2{
-  margin-right:232px;
+  margin-right:224px;
+}
 
+.MotoNinjaGex h2 {
+  margin-right:224px;
 }
 
 .MotoNinjaPrime p,
@@ -1004,7 +1076,7 @@ p {
 .MotoNinjaPrime button,
 .MotoNinjaGex button,
 .MotoNinjaRed button {
-  margin-top: 160px;
+  margin-top: 150px;
 }
 }
 `
