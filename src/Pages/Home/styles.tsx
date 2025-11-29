@@ -9,28 +9,18 @@ export const ContainerHome = styled.div`
 
 export const MainHome = styled.div`
 
-    position: relative;
+  content: '';
+  position:absolute;                  
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
+  background-image: url(${Moto});
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  background-image: linear-gradient(rgba(46, 1, 1, 0.45) 0%, #0c0c0c), url(${Moto});
   overflow-x: hidden;
-  min-height: 100vh;
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(
-      rgba(46, 1, 1, 0.45),
-      #0c0c0c
-    ),
-    url(${Moto});
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: -1;
-  }
   
 h2 {
   display: flex;
