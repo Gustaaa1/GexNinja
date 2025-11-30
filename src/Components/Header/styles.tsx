@@ -9,6 +9,7 @@ export const ContainerHeader = styled.div`
 
 export const MainHeader = styled.div`
   position: fixed;
+  z-index: 5;
    
 img {
 

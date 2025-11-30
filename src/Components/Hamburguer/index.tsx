@@ -19,10 +19,10 @@ const Hamburguer = () => {
 
                 <nav className={`mobile-menu ${open ? 'open' : ''}`} aria-hidden={!open}>
                     <ul>
-                        <li><a href="/">inicio</a></li>
-                        <li><a href="/modelos">Modelos</a></li>
-                        <li><a href="/detalhe">Sobre</a></li>
-                        <li><a href="/contatos">contatos</a></li>
+                        <li><a href="#Inicio">inicio</a></li>
+                        <li><a href="#Modelos">Modelos</a></li>
+                        <li><a href="#Detalhes">Sobre</a></li>
+                        <li><a href="https://w.app/0wucrw">contatos</a></li>
                     </ul>
                 </nav>
             </MenuHamburguer>

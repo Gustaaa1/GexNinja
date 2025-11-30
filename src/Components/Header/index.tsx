@@ -17,15 +17,16 @@ const Header = () => {
                 <h1>GexNinja</h1>
 
                 <ul>
-                    <li>Inicio</li>
-                    <li>Modelos</li>
-                    <li>Sobre</li>
-                    <li>Contato</li>
+                    <a href="#Inicio"><li>Inicio</li></a>
+                    <a href="#Modelos"><li>Modelos</li></a>
+                    <a href="#Detalhes"><li>Sobre</li></a>
+                    <a href="https://w.app/0wucrw"><li>Contato</li></a>
                 </ul>
 
-                <button>
+                <a href="https://w.app/0wucrw"> <button>
                     Agende Test Drive
                 </button>
+                </a>
 
             </MainHeader>
         </ContainerHeader>

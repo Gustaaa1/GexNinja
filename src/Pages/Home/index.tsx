@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <ContainerHome>
             <Header />
-            <MainHome>
+            <MainHome id='Inicio'>
                 <div className='AltaPeformace'>Alta Peformace</div>
                 <h2>
                     A Velocidade
@@ -23,10 +23,10 @@ const Home = () => {
                     Ver Modelos
                 </button>
 
-                <button className='Conosco'>
+                <a href="https://w.app/0wucrw"><button className='Conosco'>
                     Fale Conosco
                 </button>
-
+                </a>
                 <div className='subinfo'>
                     <h3>200+</h3>
                     <h3 className='Porcento'>98%</h3>
@@ -39,7 +39,7 @@ const Home = () => {
                     <p>Anos de experiênçia</p>
                 </div>
 
-                <Modelos>
+                <Modelos id='Modelos'>
                     <h1>
                         Nossos
                         <div className='Modelos'>Modelos</div>
@@ -52,26 +52,26 @@ const Home = () => {
                             <img src={ninja400} alt="" />
                             <h2>Ninja 400</h2>
                             <p>Perfeita para iniciantes com espirito esportivo</p>
-                            <button>Saiba Mais</button>
+                            <a href="https://w.app/0wucrw"><button>Saiba Mais</button></a>
                         </div>
 
                         <div className='MotoNinjaGex'>
                             <img src={Ninja650} alt="" />
                             <h2>Ninja 650</h2>
                             <p>Equilibrio perfeito entre performance e conforto</p>
-                            <button>Saiba Mais</button>
+                            <a href="https://w.app/0wucrw"><button>Saiba Mais</button></a>
                         </div>
 
                         <div className='MotoNinjaRed'>
                             <img src={NInjaZX} alt="" />
                             <h2>Ninja ZX-10</h2>
                             <p>Superbike de alta performance para os mais <br /> exigentes</p>
-                            <button>Saiba Mais</button>
+                            <a href="https://w.app/0wucrw"> <button>Saiba Mais</button></a>
                         </div>
                     </div>
                 </Modelos>
 
-                <FooterHome>
+                <FooterHome id='Detalhes'>
                     <h1>
                         Por Que Escolher
                         <div className='Kawazaki'>Kawazakininja</div>

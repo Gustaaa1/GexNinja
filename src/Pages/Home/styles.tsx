@@ -9,19 +9,29 @@ export const ContainerHome = styled.div`
 
 export const MainHome = styled.div`
 
-  content: '';
-  position:absolute;                  
-  top: 0;
-  left: 0;
+ position: relative;
   width: 100%;
-  height: 100%;
-  background-image: url(${Moto});
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
-  background-image: linear-gradient(rgba(46, 1, 1, 0.45) 0%, #0c0c0c), url(${Moto});
   overflow-x: hidden;
-  
+  min-height: 100vh;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+      rgba(46, 1, 1, 0.45),
+      #0c0c0c
+    ),
+    url(${Moto});
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    pointer-events: none;
+  }
 h2 {
   display: flex;
   justify-content: center;
@@ -749,78 +759,78 @@ p {
 
 @media (max-width: 480px) {
 
-  body, html {
-    overflow-x: hidden;
-  }
-
-  height: 2500px;
- 
-  h1 {
-    padding-top: 70px;
-    margin-right: 0;
-    font-size: 60px;
-  }
-
-  .Modelos {
-    margin-left: 210px;
-    margin-top: 140px;
-  }
-
-  p {
-    margin-top: 90px;
-    font-size: 20px;
-  }
-
-  .Flex {
-    display: block;
-  }
-
-  .MotoNinjaPrime button,
-  .MotoNinjaGex button,
-  .MotoNinjaRed button {
-    position: relative;
-    left: auto;
-    margin-left: 40px;
-    width: 80%;
-    max-width: 370px;
-    margin-top: 160px;
-  }
-
-  .MotoNinjaGex button {
-    margin-top: 180px;
-  }
-
-  .MotoNinjaPrime,
-  .MotoNinjaGex,
-  .MotoNinjaRed {
-    width: 405px;
-    margin-left: 10px;
-  }
-
-  .MotoNinjaPrime img,
-  .MotoNinjaGex img,
-  .MotoNinjaRed img {
-    width: 405px;
-  }
-}
-
-
-@media (max-width: 428px) {
-
 body, html {
   overflow-x: hidden;
 }
 
+height: 2500px;
+ 
+h1 {
+  padding-top: 70px;
+  margin-right: 0;
+  font-size: 60px;
+}
+
+.Modelos {
+  margin-left: 210px;
+  margin-top: 140px;
+}
+
+p {
+  margin-top: 90px;
+  font-size: 20px;
+}
+
+.Flex {
+  display: block;
+}
+
+.MotoNinjaPrime button,
+.MotoNinjaGex button,
+.MotoNinjaRed button {
+  position: relative;
+  left: auto;
+  margin-left: 40px;
+  width: 80%;
+  max-width: 370px;
+  margin-top: 160px;
+}
+
+.MotoNinjaGex button {
+  margin-top: 180px;
+}
+
+.MotoNinjaPrime,
 .MotoNinjaGex,
 .MotoNinjaRed {
   width: 405px;
-  margin-left: 10px;
+  margin-left: 25px;
 }
 
 .MotoNinjaPrime img,
 .MotoNinjaGex img,
 .MotoNinjaRed img {
   width: 405px;
+}
+}
+
+
+@media (max-width: 448px) {
+
+body, html {
+  overflow-x: hidden;
+}
+.MotoNinjaPrime,
+.MotoNinjaGex,
+.MotoNinjaRed {
+  width: 395px;
+  margin-left: 26px;
+}
+
+.MotoNinjaPrime img,
+.MotoNinjaGex img,
+.MotoNinjaRed img {
+  width: 395px;
 }
 
 .MotoNinjaPrime h2,
@@ -875,7 +885,7 @@ body, html {
 }
 
 
-@media (max-width: 414px) {
+@media (max-width: 420px) {
 
 body, html {
   overflow-x: hidden;
@@ -884,8 +894,8 @@ body, html {
 .MotoNinjaPrime,
 .MotoNinjaGex,
 .MotoNinjaRed {
-  width: 390px;
-  margin-left: 10px;
+  width: 380px;
+  margin-left: 18px;
 }
   
 .MotoNinjaPrime h2,
@@ -986,71 +996,7 @@ body, html {
 }
 }
 
-@media (max-width: 390px) {
-   
-body, html {
-  overflow-x: hidden;
-}
-
-.MotoNinjaPrime,
-.MotoNinjaGex,
-.MotoNinjaRed {
-  width: 360px;
-  margin-left: 15px;
-}
-
-.MotoNinjaPrime img,
-.MotoNinjaGex img,
-.MotoNinjaRed img {
-  width: 360px;
-}
-
-.MotoNinjaPrime h2,
-.MotoNinjaGex h2,
-.MotoNinjaRed h2 {
-  font-size: 21px;
-}
-
-.MotoNinjaPrime h2 {
-  display: flex;
-  margin: 0;
-  margin-top: 50px;
-  margin-right: 200px;
-}
-
-.MotoNinjaGex h2 {
-  display: flex;
-  margin: 0;
-  margin-top: 50px;
-  margin-right: 200px;
-}
-
-.MotoNinjaPrime p,
-.MotoNinjaGex p,
-.MotoNinjaRed p {
-  font-size: 13px;
-  text-align: start;
-  margin-left: 10px;
-}
-
-.MotoNinjaPrime button,
-.MotoNinjaGex button,
-.MotoNinjaRed button {
-  position: relative;
-  left: auto;
-  margin-left: 35px;
-  width: 80%;
-  max-width: 370px;
-  margin-top: 150px;
-}
-
-.MotoNinjaGex button{
-  margin-top: 160px;
-
-}
-}
-
-@media (max-width: 375px) {
+@media (max-width: 380px) {
 
 body, html {
   overflow-x: hidden;
@@ -1059,14 +1005,14 @@ body, html {
 .MotoNinjaPrime,
 .MotoNinjaGex,
 .MotoNinjaRed {
-  width: 350px;
-  margin-left: 13px;
+  width: 340px;
+  margin-left: 20px;
 }
 
 .MotoNinjaPrime img,
 .MotoNinjaGex img,
 .MotoNinjaRed img {
-  width: 350px;
+  width: auto;
 }
 
 .MotoNinjaPrime h2,
@@ -1097,8 +1043,8 @@ body, html {
 }
 }
 
-@media (max-width: 360px) {
- 
+@media (max-width: 367px) {
+
 body, html {
   overflow-x: hidden;
 }
@@ -1106,14 +1052,14 @@ body, html {
 .MotoNinjaPrime,
 .MotoNinjaGex,
 .MotoNinjaRed {
-  width: 340px;
-  margin-left: 11px;
+  width: 330px;
+  margin-left: 18px;
 }
 
 .MotoNinjaPrime img,
 .MotoNinjaGex img,
 .MotoNinjaRed img {
-  width: 340px;
+  width: auto;
 }
 
 .MotoNinjaPrime h2,
@@ -1153,8 +1099,8 @@ body, html {
   margin-top: 150px;
 }
 }
-
 `
+
 
 
 
