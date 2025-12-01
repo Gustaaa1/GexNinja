@@ -8,25 +8,30 @@ const Home = () => {
     return (
         <ContainerHome>
             <Header />
+
             <MainHome id='Inicio'>
+
                 <div className='AltaPeformace'>Alta Peformace</div>
+
                 <h2>
                     A Velocidade
                     <div className='Dna'> No Seu DNA </div>
                 </h2>
 
-                <p>Descubra a linha completa de motos Kawasaki Ninja. <br />
+                <p>
+                    Descubra a linha completa de motos Kawasaki Ninja. <br />
                     Performance extrema, design agressivo e tecnologia de <br />
-                    ponta.</p>
+                    ponta.
+                </p>
 
-                <button className='Modelos'>
-                    Ver Modelos
-                </button>
-
-                <a href="https://w.app/0wucrw"><button className='Conosco'>
-                    Fale Conosco
-                </button>
+                <a href="#Modelos">
+                    <button className='Modelos'>Ver Modelos</button>
                 </a>
+
+                <a href="https://w.app/0wucrw">
+                    <button className='Conosco'>Fale Conosco</button>
+                </a>
+
                 <div className='subinfo'>
                     <h3>200+</h3>
                     <h3 className='Porcento'>98%</h3>
@@ -45,29 +50,43 @@ const Home = () => {
                         <div className='Modelos'>Modelos</div>
                     </h1>
 
-                    <p>Explore a linha completa de motos Ninja. Cada modelo projetado para <br />
-                        oferecer uma experiência única de pilotagem.</p>
+                    <p>
+                        Explore a linha completa de motos Ninja. Cada modelo projetado para <br />
+                        oferecer uma experiência única de pilotagem.
+                    </p>
+
                     <div className='Flex'>
+
                         <div className='MotoNinjaPrime'>
                             <img src={ninja400} alt="" />
                             <h2>Ninja 400</h2>
                             <p>Perfeita para iniciantes com espirito esportivo</p>
-                            <a href="https://w.app/0wucrw"><button>Saiba Mais</button></a>
+                            <a href="https://w.app/0wucrw">
+                                <button>Saiba Mais</button>
+                            </a>
                         </div>
 
                         <div className='MotoNinjaGex'>
                             <img src={Ninja650} alt="" />
                             <h2>Ninja 650</h2>
                             <p>Equilibrio perfeito entre performance e conforto</p>
-                            <a href="https://w.app/0wucrw"><button>Saiba Mais</button></a>
+                            <a href="https://w.app/0wucrw">
+                                <button>Saiba Mais</button>
+                            </a>
                         </div>
 
                         <div className='MotoNinjaRed'>
                             <img src={NInjaZX} alt="" />
                             <h2>Ninja ZX-10</h2>
-                            <p>Superbike de alta performance para os mais <br /> exigentes</p>
-                            <a href="https://w.app/0wucrw"> <button>Saiba Mais</button></a>
+                            <p>
+                                Superbike de alta performance para os mais <br />
+                                exigentes
+                            </p>
+                            <a href="https://w.app/0wucrw">
+                                <button>Saiba Mais</button>
+                            </a>
                         </div>
+
                     </div>
                 </Modelos>
 
@@ -76,12 +95,14 @@ const Home = () => {
                         Por Que Escolher
                         <div className='Kawazaki'>Kawazakininja</div>
                     </h1>
-                    <p>Mais do que uma loja, somos especialistas em motos Ninja com <br />
-                        compromisso total com sua satisfacao</p>
+
+                    <p>
+                        Mais do que uma loja, somos especialistas em motos Ninja com <br />
+                        compromisso total com sua satisfacao
+                    </p>
                 </FooterHome>
 
             </MainHome>
-
         </ContainerHome>
     )
 }

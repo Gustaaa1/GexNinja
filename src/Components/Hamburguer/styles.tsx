@@ -77,7 +77,15 @@ export const MenuHamburguer = styled.div`
 @media (max-width: 480px) {
 
 .hamburger {
-  margin-left: 370px;
+  margin-left: 390px;
+  margin-top: 10px;
+}
+}
+
+@media (max-width: 435px) {
+
+.hamburger {
+  margin-left: 350px;
   margin-top: 10px;
 }
 }

@@ -136,7 +136,7 @@ button:hover {
 .subinfo {
   position: absolute;
   display: flex;
-  margin-top: 180px;
+  margin-top: 175px;
   gap: 160px;
   font-size: 45px;
   margin-left: 615px;
@@ -165,8 +165,13 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration:none;
+}
+
+
 @media (max-width: 480px) {
- 
+
 h2 {
   font-size: 60px;
   margin-top: 150px;
@@ -177,7 +182,7 @@ h2 {
 }
 
 ul {
-  display: none; 
+  display: none;
 }
 
 button {
@@ -192,24 +197,21 @@ p {
   padding: 0 20px;
 }
 
-.Modelos, 
+.Modelos,
 .Conosco {
-  position: relative;
-  margin: 10px auto;
-  margin-left: 110px;
   display: block;
-  margin-top: 20px;
+  margin: 20px auto;
+  position: relative;
 }
 
 .Modelos {
   margin-top: 30px;
-
 }
 
 .subinfo {
   margin: 0;
   font-size: 30px;
-  margin-top: 60px;
+  margin-top: 50px;
   margin-left: 37px;
   gap: 205px;
 }
@@ -217,30 +219,39 @@ p {
 .Porcento {
   padding-bottom: 198px;
   position: absolute;
-  margin-left: 145px;
+  margin-left: 165px;
   margin-top: 80px;
+  max-width: 100%;
 }
 
 .subinfop {
   margin: 0;
-  gap: 0px;
+  gap: 0;
   margin-left: 10px;
   margin-top: 45px;
+  z-index: 2;
+}
+
+.subinfo,
+.subinfop {
+  width: 100%;
+  max-width: 100%;
 }
 
 .Cliente {
   margin-left: 16px;
   margin-top: 150px;
 }
+
 .AltaPeformace {
   margin-left: 30px;
   display: none;
+}
+}
 
-}
-}
 
 @media (max-width: 414px) {
-  
+
 h2 {
   font-size: 50px;
   margin-top: 150px;
@@ -251,13 +262,7 @@ h2 {
 }
 
 ul {
-  display: none; 
-}
-
-button {
-  margin-left: 50%;
-  width: 80%;
-  max-width: 200px;
+  display: none;
 }
 
 p {
@@ -266,12 +271,11 @@ p {
   padding: 0 20px;
 }
 
-.Modelos, 
+.Modelos,
 .Conosco {
-  position: relative;
-  margin: 10px auto;
-  margin-left: 105px;
   display: block;
+  margin: 20px auto;
+  position: relative;
   margin-top: 20px;
 }
 
@@ -282,7 +286,7 @@ p {
 .subinfo {
   margin: 0;
   font-size: 30px;
-  margin-top: 60px;
+  margin-top: 50px;
   margin-left: 30px;
   gap: 200px;
 }
@@ -296,14 +300,13 @@ p {
 
 .subinfop {
   margin: 0;
-  gap: 0px;
+  gap: 0;
   margin-left: 10px;
   margin-top: 45px;
-
+  z-index: 2;
 }
 
 .Cliente {
-
   margin-left: 16px;
   margin-top: 150px;
 }
@@ -311,54 +314,12 @@ p {
 .AltaPeformace {
   margin-left: 30px;
   display: none;
-
 }
 }
 
-@media (max-width: 390px) {
- height: 777px;
-h2 {
-  font-size: 50px;
-}
+@media (max-width: 411px) {
 
-.Dna {
-  margin-top: 40px;
-}
-
-p {
-  font-size: 14px;
-}
-
-.Modelos, 
-.Conosco {
-  position: relative;
-  margin: 10px auto;
-  display: block;
-  margin-left: 100px;
-  margin-top: 20px;
-}
-
-.Modelos {
-  margin-top: 30px;
-}
-
-.subinfo {
-  gap: 180px;
-  margin-left: 27px;
-}
-
-.Porcento {
-  margin-left: 135px;
-}
-
-.AltaPeformace {
-  margin-left: 30px;
-  display: none;
-
-}
-}
-
-@media (max-width: 393px) {
+height: 777px;
 
 h2 {
   font-size: 50px;
@@ -372,13 +333,11 @@ p {
   font-size: 14px;
 }
 
-.Modelos, 
+.Modelos,
 .Conosco {
-  position: relative;
-  margin: 10px auto;
   display: block;
-  margin-left: 95px;
-  margin-top: 20px;
+  margin: 20px auto;
+  position: relative;
 }
 
 .Modelos {
@@ -386,24 +345,25 @@ p {
 }
 
 .subinfo {
-  gap: 180px;
+  gap: 210px;
   margin-left: 27px;
+  z-index: 2;
 }
 
 .Porcento {
-  margin-left: 135px;
+  margin-left: 150px;
 }
 
 .AltaPeformace {
   margin-left: 30px;
   display: none;
-
 }
 }
 
-@media (max-width: 375px) {
+
+@media (max-width: 386px) {
+
   height: 800px;
-  
 
 h2 {
   font-size: 50px;
@@ -417,13 +377,11 @@ p {
   font-size: 13px;
 }
 
-.Modelos,  
+.Modelos,
 .Conosco {
-  position: relative;
-  margin: 10px auto;
   display: block;
-  margin-left: 90px;
-  margin-top: 20px;
+  margin: 20px auto;
+  position: relative;
 }
 
 .Modelos {
@@ -431,24 +389,24 @@ p {
 }
 
 .subinfo {
-  gap: 175px;
+  gap: 185px;
   margin: 0;
-  margin-top: 60px;
+  margin-top: 50px;
   margin-left: 25px;
 }
 
 .Porcento {
-  margin-left: 130px;
+  margin-left: 135px;
 }
 
 .AltaPeformace {
   margin-left: 30px;
   display: none;
-
 }
 }
 
-@media (max-width: 360px){
+@media (max-width: 361px) {
+
   height: 800px;
 
 h2 {
@@ -465,11 +423,9 @@ p {
 
 .Modelos,
 .Conosco {
-  position: relative;
-  margin: 10px auto;
   display: block;
-  margin-left: 80px;
-  margin-top: 20px;
+  margin: 20px auto;
+  position: relative;
 }
 
 .Modelos {
@@ -477,10 +433,10 @@ p {
 }
 
 .subinfo {
-  gap: 180px;
+  gap: 175px;
   margin: 0;
-  margin-top: 60px;
-  margin-left: 14px;
+  margin-top: 50px;
+  margin-left: 25px;
 }
 
 .Porcento {
@@ -506,7 +462,7 @@ h2 {
 }
 
 p {
-  font-size: 11px;
+font-size: 11px;
 }
 
 .Modelos,
@@ -525,7 +481,7 @@ p {
 .subinfo {
   gap: 160px;
   margin: 0;
-  margin-top: 60px;
+  margin-top: 50px;
   margin-left: 6px;
 }
 
@@ -536,11 +492,12 @@ p {
 .AltaPeformace {
   margin-left: 30px;
   display: none;
+}
+}
 
-}
-}
 `
 
+      // Meus Modelos
 export const Modelos = styled.div`
 
   margin-top: 77px;
@@ -588,6 +545,10 @@ p {
   margin-top: 20px;
   z-index: 2;
   font-family: "family-poppins", sans-serif;
+}
+
+a {
+  text-decoration:none;
 }
 
 .Flex {
@@ -804,7 +765,7 @@ p {
 .MotoNinjaGex,
 .MotoNinjaRed {
   width: 405px;
-  margin-left: 25px;
+  margin-left: 40px;
 }
 
 .MotoNinjaPrime img,
@@ -854,6 +815,7 @@ body, html {
   font-size: 14px;
   text-align: start;
   margin-left: 0px;
+  
 }
 
 .MotoNinjaGex p {
@@ -884,6 +846,48 @@ body, html {
 }
 }
 
+@media (max-width: 430px) {
+
+body, html {
+  overflow-x: hidden;
+}
+
+.MotoNinjaPrime,
+.MotoNinjaGex,
+.MotoNinjaRed {
+  width: 380px;
+  margin-left: 18px;
+}
+  
+.MotoNinjaPrime h2,
+.MotoNinjaGex h2,
+.MotoNinjaRed h2 {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.MotoNinjaGex h2 {
+  margin-left: 18px;
+}
+
+.MotoNinjaRed h2 {
+  margin-left: 30px;
+  width: 120px;
+}
+
+
+.MotoNinjaPrime p,
+.MotoNinjaGex p,
+.MotoNinjaRed p {
+  font-size: 14px;
+  text-align: start;
+  margin-left: 10px;
+}
+
+.MotoNinjaGex p{
+  margin-left: 1px;
+}
+}
 
 @media (max-width: 420px) {
 
@@ -928,7 +932,7 @@ body, html {
 }
 }
 
-@media (max-width: 393px) {
+@media (max-width: 400px) {
 
 body, html {
   overflow-x: hidden;
@@ -938,7 +942,7 @@ body, html {
 .MotoNinjaGex,
 .MotoNinjaRed {
   width: 360px;
-  margin-left: 15px;
+  margin-left: 20px;
 }
 
 .MotoNinjaPrime img,
@@ -996,7 +1000,7 @@ body, html {
 }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 395px) {
 
 body, html {
   overflow-x: hidden;
@@ -1102,31 +1106,6 @@ body, html {
 `
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 export const FooterHome = styled.div`
   height: 950px;
   background: #170E0E;
@@ -1170,6 +1149,10 @@ p {
   margin-top: 20px;
   z-index: 2;
   font-family: "family-poppins", sans-serif;
+}
+
+a {
+  text-decoration:none;
 }
 
 @media (max-width: 480px) {
@@ -1258,8 +1241,4 @@ p {
   margin-top: 15px;
   }
 }
-
-
-
-
 `
