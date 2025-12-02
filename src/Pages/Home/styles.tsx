@@ -172,6 +172,8 @@ a {
 
 @media (max-width: 480px) {
 
+  height: 100%;
+  
 h2 {
   font-size: 60px;
   margin-top: 150px;
@@ -250,6 +252,9 @@ p {
 }
 
 @media (max-width: 440px) {
+
+  height: 100%;
+  
   .subinfo {
   margin: 0;
   font-size: 30px;
@@ -278,7 +283,8 @@ p {
 }
 
 @media (max-width: 414px) {
-
+height: 100%;
+  
 h2 {
   font-size: 50px;
   margin-top: 150px;
@@ -346,7 +352,8 @@ p {
 
 @media (max-width: 411px) {
 
-height: 777px;
+  height: 100%;
+  
 
 h2 {
   font-size: 50px;
@@ -389,9 +396,8 @@ p {
 
 
 @media (max-width: 386px) {
-
-  height: 800px;
-
+  height: 100%;
+  
 h2 {
   font-size: 50px;
 }
@@ -434,7 +440,8 @@ p {
 
 @media (max-width: 361px) {
 
-  height: 800px;
+  height: 100%;
+  
 
 h2 {
   font-size: 50px;
@@ -478,7 +485,8 @@ p {
 
 @media (max-width: 320px) {
 
-  height: 800px;
+  height: 100%;
+  
 
 h2 {
   font-size: 40px;
@@ -794,6 +802,52 @@ p {
   display: block;
 }
 
+.MotoNinjaPrime h2,
+.MotoNinjaGex h2,
+.MotoNinjaRed h2 {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.MotoNinjaPrime h2 {
+ margin-left: 10px;
+}
+
+.MotoNinjaRed h2 {
+  margin-left: 34px;
+}
+
+.MotoNinjaPrime p,
+.MotoNinjaGex p,
+.MotoNinjaRed p {
+  font-size: 14px;
+  text-align: start;
+  margin-left: 0px;
+}
+
+.MotoNinjaPrime p,
+.MotoNinjaGex p,
+.MotoNinjaRed p {
+  font-size: 14px;
+  text-align: start;
+  margin-left: 0px;
+}
+
+.MotoNinjaPrime p{
+  margin-left: 13px;
+  
+}
+
+.MotoNinjaGex p {
+  margin-left: 0px;
+}
+
+.MotoNinjaRed p {
+  margin-left: 0px;
+}
+
+
+
 .MotoNinjaPrime button,
 .MotoNinjaGex button,
 .MotoNinjaRed button {
@@ -843,7 +897,7 @@ h5 {
 }
 
 
-@media (max-width: 448px) {
+@media (max-width: 450px) {
 
 body, html {
   overflow-x: hidden;
@@ -865,7 +919,11 @@ body, html {
 .MotoNinjaGex h2,
 .MotoNinjaRed h2 {
   font-size: 20px;
-  margin-left: 10px;
+  margin-left: 20px;
+}
+
+.MotoNinjaRed h2{
+  margin-left: 15px;
 }
 
 .MotoNinjaGex h2{
@@ -873,7 +931,8 @@ body, html {
 }
 
 .MotoNinjaRed h2 {
-  margin-left: 40px;
+  margin-left: 30px;
+  width: 120px;
 }
 
 .MotoNinjaPrime p,
@@ -882,7 +941,6 @@ body, html {
   font-size: 14px;
   text-align: start;
   margin-left: 0px;
-  
 }
 
 .MotoNinjaGex p {
@@ -895,6 +953,7 @@ body, html {
 
 .MotoNinjaPrime p{
   margin-left: 13px;
+  
 }
  
 .MotoNinjaPrime button,
@@ -951,6 +1010,12 @@ body, html {
   font-size: 20px;
   margin-left: 20px;
 }
+
+.MotoNinjaPrime h2 {
+  margin-left: 30px;
+  width: 100px;
+}
+
 
 .MotoNinjaGex h2 {
   margin-left: 18px;
@@ -1014,8 +1079,12 @@ body, html {
   margin-left: 20px;
 }
 
+.MotoNinjaPrime h2 {
+  margin-left: 30px;
+}
+
 .MotoNinjaGex h2 {
-  margin-left: 18px;
+  margin-left: 19px;
 }
 
 .MotoNinjaRed h2 {
@@ -1032,9 +1101,6 @@ body, html {
   margin-left: 10px;
 }
 
-.MotoNinjaGex p{
-  margin-left: 1px;
-}
 }
 
 @media (max-width: 400px) {
@@ -1124,6 +1190,7 @@ h5 {
 }
 
 @media (max-width: 395px) {
+  margin-top: 0;
 
 body, html {
   overflow-x: hidden;
@@ -1188,7 +1255,8 @@ h5 {
 
 }
 
-@media (max-width: 367px) {
+@media (max-width: 380px) {
+  margin-top: 0px;
 
 body, html {
   overflow-x: hidden;
@@ -1197,7 +1265,7 @@ body, html {
 .MotoNinjaPrime,
 .MotoNinjaGex,
 .MotoNinjaRed {
-  width: 330px;
+  width: 340px;
   margin-left: 18px;
 }
 
@@ -1214,8 +1282,12 @@ body, html {
   font-size: 19px;
   margin: 0;
   margin-top: 40px;
-  margin-right: 228px;
+  margin-right: 218px;
   transform: translate(20px);
+}
+
+.MotoNinjaPrime h2{
+  margin-left: 6px;
 }
 
 .MotoNinjaRed h2 {
@@ -1234,7 +1306,7 @@ body, html {
 }
 
 .MotoNinjaRed p {
-  width: 337px;
+  width: 336px;
 
 }
 
