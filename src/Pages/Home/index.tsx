@@ -54,10 +54,21 @@ const Home = () => {
                         Explore a linha completa de motos Ninja. Cada modelo projetado para <br />
                         oferecer uma experiência única de pilotagem.
                     </p>
-
+                    <div className='Valores'>
+                        <div className='ValorPrime'>
+                            <h5>R$ 32.990</h5>
+                        </div>
+                        <div className='ValorGex'>
+                            <h5>R$ 44.990</h5>
+                        </div>
+                        <div className='ValorRed'>
+                            <h5>R$ 89.990</h5>
+                        </div>
+                    </div>
                     <div className='Flex'>
 
                         <div className='MotoNinjaPrime'>
+
                             <img src={ninja400} alt="" />
                             <h2>Ninja 400</h2>
                             <p>Perfeita para iniciantes com espirito esportivo</p>
@@ -86,7 +97,6 @@ const Home = () => {
                                 <button>Saiba Mais</button>
                             </a>
                         </div>
-
                     </div>
                 </Modelos>
 
@@ -100,6 +110,12 @@ const Home = () => {
                         Mais do que uma loja, somos especialistas em motos Ninja com <br />
                         compromisso total com sua satisfacao
                     </p>
+
+                    <div className='Acelerar'>
+                        <h4>Pronto Para Acelerar?</h4>
+                        <p>Agende um test drive e sinta a emoção de pilotar uma verdadeira Ninja.</p>
+                        <button>Agendar Test Drive Agora</button>
+                    </div>
                 </FooterHome>
 
             </MainHome>

@@ -213,7 +213,7 @@ p {
   font-size: 30px;
   margin-top: 50px;
   margin-left: 37px;
-  gap: 205px;
+  gap: 255px;
 }
 
 .Porcento {
@@ -249,6 +249,33 @@ p {
 }
 }
 
+@media (max-width: 440px) {
+  .subinfo {
+  margin: 0;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: 37px;
+  gap: 225px;
+}
+
+.Porcento {
+  padding-bottom: 198px;
+  position: absolute;
+  margin-left: 160px;
+  margin-top: 80px;
+  max-width: 100%;
+}
+
+.subinfop {
+  margin: 0;
+  gap: 0;
+  margin-left: 10px;
+  margin-top: 45px;
+  z-index: 2;
+}
+
+
+}
 
 @media (max-width: 414px) {
 
@@ -288,13 +315,13 @@ p {
   font-size: 30px;
   margin-top: 50px;
   margin-left: 30px;
-  gap: 200px;
+  gap: 210px;
 }
 
 .Porcento {
   padding-bottom: 198px;
   position: absolute;
-  margin-left: 143px;
+  margin-left: 145px;
   margin-top: 80px;
 }
 
@@ -497,7 +524,7 @@ font-size: 11px;
 
 `
 
-      // Meus Modelos
+// Meus Modelos
 export const Modelos = styled.div`
 
   margin-top: 77px;
@@ -715,8 +742,29 @@ a {
   margin-top: 170px;
 }
 
+h5 {
+  width: 92px;
+  height: 27px;
+  background-color: #eb2525;
+  color: white;
+  font-size: 17px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "family-poppins", sans-serif;
+  font-size: 15px;
+}
 
-
+.Valores{
+  position: absolute;
+  z-index: 4;
+  display: flex;
+  justify-content: center;
+  gap: 360px;
+  margin-left: 610px;
+  margin-top: 70px;
+}
 
 @media (max-width: 480px) {
 
@@ -772,6 +820,25 @@ p {
 .MotoNinjaGex img,
 .MotoNinjaRed img {
   width: 405px;
+}
+
+.Valores{
+  display: block;
+  margin: 0;
+  margin-left: 340px;
+}
+
+h5 {
+  margin-top: 70px;
+}
+
+.ValorGex {
+  margin-top: 630px;
+}
+
+.ValorRed {
+  margin-top: 630px;
+
 }
 }
 
@@ -844,6 +911,25 @@ body, html {
 .MotoNinjaGex button {
   margin-top: 180px;
 }
+
+.Valores{
+  display: block;
+  margin: 0;
+  margin-left: 320px;
+}
+
+h5 {
+  margin-top: 70px;
+}
+
+.ValorGex {
+  margin-top: 630px;
+}
+
+.ValorRed {
+  margin-top: 630px;
+
+}
 }
 
 @media (max-width: 430px) {
@@ -886,6 +972,25 @@ body, html {
 
 .MotoNinjaGex p{
   margin-left: 1px;
+}
+
+.Valores{
+  display: block;
+  margin: 0;
+  margin-left: 290px;
+}
+
+h5 {
+  margin-top: 70px;
+}
+
+.ValorGex {
+  margin-top: 630px;
+}
+
+.ValorRed {
+  margin-top: 630px;
+
 }
 }
 
@@ -996,6 +1101,24 @@ body, html {
 }
 .MotoNinjaRed button{
   margin-top: 160px;
+}
+
+.Valores{
+  display: block;
+  margin: 0;
+  margin-left: 270px;
+}
+
+h5 {
+  margin-top: 70px;
+}
+
+.ValorGex {
+  margin-top: 630px;
+}
+
+.ValorRed {
+  margin-top: 630px;
 
 }
 }
@@ -1009,14 +1132,14 @@ body, html {
 .MotoNinjaPrime,
 .MotoNinjaGex,
 .MotoNinjaRed {
-  width: 340px;
+  width: 360px;
   margin-left: 20px;
 }
 
 .MotoNinjaPrime img,
 .MotoNinjaGex img,
 .MotoNinjaRed img {
-  width: auto;
+  width: 360px;
 }
 
 .MotoNinjaPrime h2,
@@ -1045,6 +1168,24 @@ body, html {
 .MotoNinjaRed button {
   margin-top: 150px;
 }
+
+.Valores{
+  display: block;
+  margin: 0;
+  margin-left: 250px;
+}
+
+h5 {
+  margin-top: 70px;
+}
+
+.ValorGex {
+  margin-top: 630px;
+}
+
+.ValorRed {
+  margin-top: 630px;
+
 }
 
 @media (max-width: 367px) {
@@ -1102,14 +1243,33 @@ body, html {
 .MotoNinjaRed button {
   margin-top: 150px;
 }
+
+.Valores{
+  display: block;
+  margin: 0;
+  margin-left: 240px;
+}
+
+h5 {
+  margin-top: 70px;
+}
+
+.ValorGex {
+  margin-top: 630px;
+}
+
+.ValorRed {
+  margin-top: 630px;
+
+}
+}
 }
 `
 
 
 export const FooterHome = styled.div`
   height: 950px;
-  background: #170E0E;
-  background: linear-gradient(180deg, #3a0000 1%, rgba(13, 13, 13, 1) 33%, rgba(13, 13, 13, 1) 100%);
+  background-color: #141414;
   height: 1080px;
   z-index: -1;;
 
@@ -1155,6 +1315,49 @@ a {
   text-decoration:none;
 }
 
+.Acelerar {
+  display: flex;
+  justify-content: center;
+  margin-top: 450px;
+  background: #D12828;
+  background: linear-gradient(134deg, rgba(209, 40, 40, 1) 33%, rgba(51, 18, 18, 1) 92%);
+  width: 650px;
+  height: 300px;
+  margin-left: 630px;
+  border-radius:20px;
+  font-family: "family-poppins", sans-serif;
+}
+.Acelerar h4, button {
+  margin: 0;
+}
+
+.Acelerar h4 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: 900;
+  color: white;
+  margin-top: 40px;
+}
+
+.Acelerar p {
+  margin-top: 100px;
+  width: 500px;
+  position: absolute;
+
+}
+.Acelerar button {
+  background-color: white;
+  color: black;
+  width: 250px;
+  height: 60px;
+  font-size: 17px;
+  margin-top: 200px;
+}
+
+
+
 @media (max-width: 480px) {
 
 h1 {
@@ -1173,6 +1376,30 @@ p {
   width: 370px;
   transform: translateX(25px);
   }
+
+.Acelerar{
+  margin: 0;
+  width: 350px;
+  margin-left: 15px;
+  margin-top: 400px;
+  width: calc(100% - 30px); 
+}
+
+.Acelerar h4{
+  font-size: 25px;
+}
+
+.Acelerar p{
+  font-size: 15px;
+  width: 350px;
+  margin-right: 60px;
+  
+}
+
+.Acelerar button {
+  font-size: 14px;
+
+}
 }
 
 @media (max-width: 414px) {
@@ -1190,6 +1417,10 @@ p {
   width: 320px;
   transform: translateX(45px);
   }
+
+.Acelerar p{
+  margin-right: 90px;
+  }
 }
 
 @media (max-width: 393px) {
@@ -1206,6 +1437,10 @@ p {
   width: 320px;
   transform: translateX(35px);
   }
+
+.Acelerar p{
+  margin-right: 75px;
+}
 }
 
 @media (max-width: 390px) {
@@ -1240,5 +1475,9 @@ p {
   font-size: 18px;
   margin-top: 15px;
   }
+
+.Acelerar p{
+  margin-right: 55px;
+}
 }
 `
