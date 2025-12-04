@@ -9,29 +9,29 @@ export const ContainerHome = styled.div`
 
 export const MainHome = styled.div`
 
- position: relative;
+  position: relative;
   width: 100%;
   overflow-x: hidden;
   min-height: 100vh;
 
   &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(
-      rgba(46, 1, 1, 0.45),
-      #0c0c0c
-    ),
-    url(${Moto});
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: -1;
-    pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    rgba(46, 1, 1, 0.45),
+    #0c0c0c),
+  url(${Moto});
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  pointer-events: none;
   }
+
 h2 {
   display: flex;
   justify-content: center;
@@ -120,17 +120,19 @@ button:hover {
 
 .AltaPeformace {
   position: absolute;
-  margin-left: 880px;
-  margin-top: 200px;
-  width: 170px;
+  margin-left: 860px;
+  margin-top: 195px;
+  width: 180px;
   height: 36px;
   border-radius: 20px;
-  padding-left: 33px;
+  padding-left: 35px;
   padding-top: 9px;
+  font-size: 15px;
   background-color: #eb25252a;
   color: #ff0000;
   z-index: 4;
   border: solid  #eb252550  1px;
+    font-family: "family-poppins", sans-serif;
 }
 
 .subinfo {
@@ -395,7 +397,7 @@ p {
 }
 
 
-@media (max-width: 386px) {
+@media (max-width: 390px) {
   height: 100%;
   
 h2 {
@@ -718,7 +720,7 @@ a {
 }
 
 .MotoNinjaPrime button, .MotoNinjaGex button, .MotoNinjaRed button {
-  margin-top: 180px;
+  margin-top: 55px;
   margin-left: 20px;
   width: 370px;
   height: 40px;
@@ -737,7 +739,7 @@ a {
 
 .MotoNinjaRed p{
   margin: 0;
-  margin-right: 50px;
+  margin-left: 22px;
   margin-top: 10px;
   text-align: start;
 }
@@ -747,7 +749,7 @@ a {
 }
 
 .MotoNinjaRed button {
-  margin-top: 170px;
+  margin-top: 60px;
 }
 
 h5 {
@@ -772,6 +774,51 @@ h5 {
   gap: 360px;
   margin-left: 610px;
   margin-top: 70px;
+}
+
+.container-geral {
+  display: flex;
+  gap: 298px;
+  position: absolute;
+  z-index: 4;
+  margin-top: 440px;
+  margin-left: 320px;
+  opacity: 1;
+}
+
+.lista-especificacoes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 23px;
+  margin-top: 30px;
+}
+
+.item-especificacao {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.label {
+  color:  #c9c9c9;
+  font-weight: 600;
+}
+
+.value {
+  color: #f1f1f1;
+  filter: none;
+  opacity: 1;
+  font-weight: 900;
+  font-size: 11px;
+   font-family: "family-poppins", sans-serif;
+
+}
+
+.item-especificacao *,
+.lista-especificacoes *,
+.container-geral * {
+  filter: none;
 }
 
 @media (max-width: 480px) {
@@ -809,12 +856,9 @@ p {
   margin-left: 20px;
 }
 
-.MotoNinjaPrime h2 {
- margin-left: 10px;
-}
+.MotoNinjaPrime h2{
 
-.MotoNinjaRed h2 {
-  margin-left: 34px;
+  margin-left: 10px;
 }
 
 .MotoNinjaPrime p,
@@ -846,8 +890,6 @@ p {
   margin-left: 0px;
 }
 
-
-
 .MotoNinjaPrime button,
 .MotoNinjaGex button,
 .MotoNinjaRed button {
@@ -856,11 +898,7 @@ p {
   margin-left: 40px;
   width: 80%;
   max-width: 370px;
-  margin-top: 160px;
-}
-
-.MotoNinjaGex button {
-  margin-top: 180px;
+  margin-top: 50px;
 }
 
 .MotoNinjaPrime,
@@ -915,24 +953,8 @@ body, html {
   width: 395px;
 }
 
-.MotoNinjaPrime h2,
-.MotoNinjaGex h2,
-.MotoNinjaRed h2 {
-  font-size: 20px;
-  margin-left: 20px;
-}
-
-.MotoNinjaRed h2{
-  margin-left: 15px;
-}
-
-.MotoNinjaGex h2{
-  margin-left: 15px;
-}
-
-.MotoNinjaRed h2 {
-  margin-left: 30px;
-  width: 120px;
+.MotoNinjaPrime h2 {
+  margin-left: 22px;
 }
 
 .MotoNinjaPrime p,
@@ -955,22 +977,6 @@ body, html {
   margin-left: 13px;
   
 }
- 
-.MotoNinjaPrime button,
-.MotoNinjaGex button,
-.MotoNinjaRed button {
-  position: relative;
-  left: auto;
-  margin-left: 40px;
-  width: 80%;
-  max-width: 370px;
-  margin-top: 160px;
-}
-
-.MotoNinjaGex button {
-  margin-top: 180px;
-}
-
 .Valores{
   display: block;
   margin: 0;
@@ -987,7 +993,6 @@ h5 {
 
 .ValorRed {
   margin-top: 630px;
-
 }
 }
 
@@ -1008,21 +1013,15 @@ body, html {
 .MotoNinjaGex h2,
 .MotoNinjaRed h2 {
   font-size: 20px;
-  margin-left: 20px;
 }
 
 .MotoNinjaPrime h2 {
-  margin-left: 30px;
+  margin-left: 29px;
   width: 100px;
 }
 
-
-.MotoNinjaGex h2 {
-  margin-left: 18px;
-}
-
 .MotoNinjaRed h2 {
-  margin-left: 30px;
+  margin-left: 26px;
   width: 120px;
 }
 
@@ -1071,27 +1070,11 @@ body, html {
   width: 380px;
   margin-left: 18px;
 }
-  
-.MotoNinjaPrime h2,
-.MotoNinjaGex h2,
-.MotoNinjaRed h2 {
-  font-size: 20px;
-  margin-left: 20px;
-}
-
-.MotoNinjaPrime h2 {
-  margin-left: 30px;
-}
 
 .MotoNinjaGex h2 {
-  margin-left: 19px;
-}
+margin-left: 27px;
 
-.MotoNinjaRed h2 {
-  margin-left: 30px;
-  width: 120px;
 }
-
 
 .MotoNinjaPrime p,
 .MotoNinjaGex p,
@@ -1132,14 +1115,16 @@ body, html {
   display: flex;
   margin: 0;
   margin-top: 50px;
-  margin-right: 200px;
+  margin-left: 21px;
+  width: 120px;
 }
 
 .MotoNinjaGex h2 {
-  display: flex;
-  margin: 0;
-  margin-top: 50px;
-  margin-right: 200px;
+  width: 105px;
+}
+
+.MotoNinjaRed h2 {
+  margin-left: 29px;
 }
 
 .MotoNinjaPrime p,
@@ -1150,23 +1135,8 @@ body, html {
   margin-left: 10px;
 }
 
-.MotoNinjaPrime button,
-.MotoNinjaGex button,
-.MotoNinjaRed button {
-  position: relative;
-  left: auto;
-  margin-left: 35px;
-  width: 80%;
-  max-width: 370px;
-  margin-top: 140px;
-}
-
-.MotoNinjaGex button{
-  margin-top: 160px;
-
-}
-.MotoNinjaRed button{
-  margin-top: 160px;
+.MotoNinjaPrime button {
+  margin-top: 40px;
 }
 
 .Valores{
@@ -1209,16 +1179,6 @@ body, html {
   width: 360px;
 }
 
-.MotoNinjaPrime h2,
-.MotoNinjaGex h2,
-.MotoNinjaRed h2 {
-  margin-left: 10px;
-}
-
-.MotoNinjaRed h2{
-  margin-left: 30px;
-}
-
 .MotoNinjaPrime p,
 .MotoNinjaGex p,
 .MotoNinjaRed p {
@@ -1230,10 +1190,8 @@ body, html {
   width: 320px;
 }
 
-.MotoNinjaPrime button,
-.MotoNinjaGex button,
-.MotoNinjaRed button {
-  margin-top: 150px;
+.MotoNinjaGex button, .MotoNinjaPrime button {
+  margin-top: 35px;
 }
 
 .Valores{
@@ -1253,6 +1211,7 @@ h5 {
 .ValorRed {
   margin-top: 630px;
 
+}
 }
 
 @media (max-width: 380px) {
@@ -1275,26 +1234,6 @@ body, html {
   width: auto;
 }
 
-.MotoNinjaPrime h2,
-.MotoNinjaGex h2,
-.MotoNinjaRed h2 {
-  display: flex;
-  font-size: 19px;
-  margin: 0;
-  margin-top: 40px;
-  margin-right: 218px;
-  transform: translate(20px);
-}
-
-.MotoNinjaPrime h2{
-  margin-left: 6px;
-}
-
-.MotoNinjaRed h2 {
-  margin-left: 3px;
-  width: 120px;
-}
-
 .MotoNinjaPrime p,
 .MotoNinjaGex p,
 .MotoNinjaRed p {
@@ -1310,10 +1249,8 @@ body, html {
 
 }
 
-.MotoNinjaPrime button,
-.MotoNinjaGex button,
 .MotoNinjaRed button {
-  margin-top: 150px;
+  margin-top: 40px;
 }
 
 .Valores{
@@ -1335,10 +1272,8 @@ h5 {
 
 }
 }
-}
+
 `
-
-
 export const FooterHome = styled.div`
   height: 950px;
   background-color: #141414;
