@@ -5,7 +5,20 @@ import ninja400 from '../../assets/imgs/ninja-400.jpg'
 import Ninja650 from '../../assets/imgs/ninja-650.jpg'
 import NInjaZX from '../../assets/imgs/ninja-zx10r.jpg'
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
+
 const Home = () => {
+
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+
+        });
+    }, []);
+
     return (
         <ContainerHome>
             <Header />
@@ -56,16 +69,16 @@ const Home = () => {
                         oferecer uma experiência única de pilotagem.
                     </p>
 
-                    <div className='Valores'>
-                        <div className='ValorPrime'><h5>R$ 32.990</h5></div>
-                        <div className='ValorGex'><h5>R$ 44.990</h5></div>
-                        <div className='ValorRed'><h5>R$ 89.990</h5></div>
+                    <div data-aos="fade-up" className='Valores'>
+                        <div data-aos="fade-up" className='ValorPrime'><h5>R$ 32.990</h5></div>
+                        <div data-aos="fade-up" className='ValorGex'><h5>R$ 44.990</h5></div>
+                        <div data-aos="fade-up" className='ValorRed'><h5>R$ 89.990</h5></div>
                     </div>
 
                     <div className='Flex'>
 
                         {/* CARD — NINJA 400 */}
-                        <div className='MotoNinjaPrime'>
+                        <div data-aos="fade-up" className='MotoNinjaPrime'>
                             <img src={ninja400} alt="" />
                             <h2>Ninja 400</h2>
                             <p>Perfeita para iniciantes com espirito esportivo</p>
@@ -92,7 +105,7 @@ const Home = () => {
                         </div>
 
                         {/* CARD — NINJA 650 */}
-                        <div className='MotoNinjaGex'>
+                        <div data-aos="fade-up" className='MotoNinjaGex'>
                             <img src={Ninja650} alt="" />
                             <h2>Ninja 650</h2>
                             <p>Equilibrio perfeito entre performance e conforto</p>
@@ -119,7 +132,7 @@ const Home = () => {
                         </div>
 
                         {/* CARD — NINJA ZX-10 */}
-                        <div className='MotoNinjaRed'>
+                        <div data-aos="fade-up" className='MotoNinjaRed'>
                             <img src={NInjaZX} alt="" />
                             <h2>Ninja ZX-10</h2>
                             <p>
@@ -153,12 +166,12 @@ const Home = () => {
                 <FooterHome id='Detalhes'>
                     <h1>
                         Por Que Escolher
-                        <div className='Kawazaki'>Kawazakininja</div>
+                        <div className='Kawazaki'>KawazakiNinja</div>
                     </h1>
 
                     <p>
                         Mais do que uma loja, somos especialistas em motos Ninja com <br />
-                        compromisso total com sua satisfacao
+                        compromisso total com sua satisfação
                     </p>
 
                     <div className='Acelerar'>

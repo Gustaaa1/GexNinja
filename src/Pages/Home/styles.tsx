@@ -174,8 +174,6 @@ a {
 
 @media (max-width: 480px) {
 
-  height: 100%;
-  
 h2 {
   font-size: 60px;
   margin-top: 150px;
@@ -255,8 +253,6 @@ p {
 
 @media (max-width: 440px) {
 
-  height: 100%;
-  
   .subinfo {
   margin: 0;
   font-size: 30px;
@@ -285,8 +281,7 @@ p {
 }
 
 @media (max-width: 414px) {
-height: 100%;
-  
+
 h2 {
   font-size: 50px;
   margin-top: 150px;
@@ -354,9 +349,6 @@ p {
 
 @media (max-width: 411px) {
 
-  height: 100%;
-  
-
 h2 {
   font-size: 50px;
 }
@@ -398,8 +390,7 @@ p {
 
 
 @media (max-width: 390px) {
-  height: 100%;
-  
+
 h2 {
   font-size: 50px;
 }
@@ -442,9 +433,6 @@ p {
 
 @media (max-width: 361px) {
 
-  height: 100%;
-  
-
 h2 {
   font-size: 50px;
 }
@@ -486,9 +474,6 @@ p {
 }
 
 @media (max-width: 343px) {
-
-  height: 100%;
-  
 
 h2 {
   font-size: 40px;
@@ -1054,7 +1039,7 @@ h5 {
 }
 
 @media (max-width: 420px) {
-
+  margin: 0;
 body, html {
   overflow-x: hidden;
 }
@@ -1210,7 +1195,8 @@ h5 {
 }
 
 @media (max-width: 380px) {
-  margin-top: 0px;
+  margin: 0;
+ 
 
 body, html {
   overflow-x: hidden;
