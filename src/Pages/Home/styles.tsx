@@ -485,7 +485,7 @@ p {
 }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 343px) {
 
   height: 100%;
   
@@ -498,17 +498,12 @@ h2 {
   margin-top: 40px;
 }
 
-p {
-font-size: 11px;
-}
-
 .Modelos,
 .Conosco {
-  position: relative;
-  margin: 10px auto;
   display: block;
-  margin-left: 60px;
-  margin-top: 20px;
+  margin: 20px auto;
+  position: relative;
+  
 }
 
 .Modelos {
@@ -516,14 +511,14 @@ font-size: 11px;
 }
 
 .subinfo {
-  gap: 160px;
+  gap: 180px;
   margin: 0;
   margin-top: 50px;
-  margin-left: 6px;
+  margin-left: 10px;
 }
 
-.Porcento {
-  margin-left: 120px;
+.subinfop {
+  gap: 0px;
 }
 
 .AltaPeformace {
@@ -1072,7 +1067,7 @@ body, html {
 }
 
 .MotoNinjaGex h2 {
-margin-left: 27px;
+  margin-left: 27px;
 
 }
 
@@ -1270,6 +1265,38 @@ h5 {
 .ValorRed {
   margin-top: 630px;
 
+}
+}
+
+@media (max-width: 346px) {
+  
+.MotoNinjaPrime,
+.MotoNinjaGex,
+.MotoNinjaRed {
+  width: 310px;
+  margin-left: 18px;
+}
+
+.MotoNinjaPrime img,
+.MotoNinjaGex img,
+.MotoNinjaRed img {
+  width: 310px;
+}
+
+.Valores{
+  display: block;
+  margin: 0;
+  margin-left: 220px;
+}
+
+.MotoNinjaPrime p,
+.MotoNinjaGex p,
+.MotoNinjaRed p {
+  font-size: 14px;
+}
+
+p {
+  font-size: 16px;
 }
 }
 
@@ -1481,10 +1508,26 @@ p {
   transform: translateX(25px);
   font-size: 18px;
   margin-top: 15px;
-  }
+}
 
 .Acelerar p{
   margin-right: 55px;
+}
+}
+
+@media (max-width: 346px) { 
+
+h1 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 17px;
+   transform: translateX(12px);
+}
+
+.Acelerar p{
+  margin-right: 30px;
 }
 }
 `
